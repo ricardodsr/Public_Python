@@ -9,6 +9,11 @@ print("Hello World")
 
 wait = input("Apertar para continuar.")
 
+print("Existem tipos de variaveis diferentes")
+print("Alguns exemplos:")
+print("str -> String -> Texto")
+print("int -> inteiros -> Numeros inteiros")
+print("Float -> numeros com virgulas")
 
 #Tipos de Variaveis
 # str = String (texto)
