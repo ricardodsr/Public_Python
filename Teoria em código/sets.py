@@ -1,1 +1,0 @@
-#exatamente igual a listas
