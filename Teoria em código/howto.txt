@@ -1,0 +1,6 @@
+Instalar VSCode
+Instalar Python intelliSense
+
+entrar na directoria 
+interpretar o ficheiro.py
+
