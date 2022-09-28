@@ -39,6 +39,7 @@ print(type(y))
 
 ​
 
+
 <class 'int'>
 <class 'str'>
 
