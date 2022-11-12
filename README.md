@@ -29,3 +29,6 @@
       11 - lambda.py
 
       Exercicios.py
+
+# EN (English Folder)
+      Simple way to start coding in python
