@@ -1,4 +1,4 @@
-# Public_Python
+# Python
 
 # Conteúdo Teoria em código
 
@@ -30,6 +30,9 @@
 
       Exercicios.py
 
+# Fundamentos de programação em Python
+
+      https://play.google.com/store/books/details/Ricardo_Rouco_FUNDAMENTOS_DE_PROGRAMA%C3%87%C3%83O_EM_PYTHON?id=ZiJ6EAAAQBAJ
 # EN (English Folder)
       
       Simple way to start coding in python
