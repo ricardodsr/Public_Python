@@ -15,10 +15,17 @@ print("str -> String -> Texto")
 print("int -> inteiros -> Numeros inteiros")
 print("Float -> numeros com virgulas")
 
-#Tipos de Variaveis
-# str = String (texto)
-# int = inteiros (numeros inteiros)
-# float = numeros com virgulas flutuantes ou pontos
+""""
+Em Python, existem 8 tipos de variáveis diferentes - cadenas, números inteiros, números de ponto flutuante, listas, tuplas, conjuntos, dicionários e booleanos.
+Cadenas são usadas para armazenar caracteres e símbolos numa sequência. Eles são usados ​​para armazenar informações como nomes, endereços, telefones, etc.
+Números inteiros são usados ​​para armazenar valores inteiros, como 0, 1, -1, etc.
+Números de ponto flutuante são usados ​​para armazenar valores decimais, como 0.5, 3.14, etc.
+Listas são usadas para armazenar informações em uma sequência. Por exemplo, uma lista de produtos, uma lista de nomes, etc.
+Tuplas são como listas, ou seja, armazenam vários valores em uma sequência. No entanto, os valores de uma tupla são imutáveis, ou seja, não podem ser alterados.
+Conjuntos são usados ​​para armazenar vários valores, mas sem nenhuma ordem específica.
+Dicionários são usados ​​para armazenar vários valores associados a chaves de dados.
+Booleanos são usados ​​para armazenar valores verdadeiro ou falso
+"""
 
 x = str(3)    # x retrona '3'
 y = int(3)    # y retrona 3
@@ -36,9 +43,6 @@ y = "John"
 print(type(x))
 
 print(type(y))
-
-​
-
 
 <class 'int'>
 <class 'str'>
