@@ -57,7 +57,7 @@ for x in adj:
 
 
 def my_function(fname, lname):
-    print(fname + " " + lname)
+    print(f"{fname} {lname}")
 
 
 my_function("Cris", "Marcelo")
