@@ -145,7 +145,8 @@ bool("")  # => False
 ####################################################
 
 # Python has a print statement
-print "I'm Python. Nice to meet you!"  # => I'm Python. Nice to meet you!
+print ("Hello, World")  # => Hello, World
+print ("I'm Python. Nice to meet you!")  # => I'm Python. Nice to meet you!
 
 # Simple way to get input data from console
 input_string_var = raw_input(
@@ -351,11 +352,11 @@ some_var = 5
 # Here is an if statement. Indentation is significant in python!
 # prints "some_var is smaller than 10"
 if some_var > 10:
-    print "some_var is greater than 10."
+    print ("some_var is greater than 10.")
 elif some_var < 10:  # This elif clause is optional.
-    print "some_var is smaller than 10."
+    print ("some_var is smaller than 10.")
 else:  # This is optional too.
-    print "some_var is indeed 10."
+    print ("some_var is indeed 10.")
 
 """
 For loops iterate over lists
@@ -366,7 +367,7 @@ prints:
 """
 for animal in ["dog", "cat", "mouse"]:
     # You can use {0} to interpolate formatted strings. (See above.)
-    print "{0} is a mammal".format(animal)
+    print ("{0} is a mammal").format(animal)
 
 """
 "range(number)" returns a list of numbers
@@ -378,7 +379,7 @@ prints:
     3
 """
 for i in range(4):
-    print i
+    print (i)
 
 """
 "range(lower, upper)" returns a list of numbers
@@ -390,7 +391,7 @@ prints:
     7
 """
 for i in range(4, 8):
-    print i
+    print (i)
 
 """
 While loops go until a condition is no longer met.
@@ -402,7 +403,7 @@ prints:
 """
 x = 0
 while x < 4:
-    print x
+    print (x)
     x += 1  # Shorthand for x = x + 1
 
 # Handle exceptions with a try/except block
