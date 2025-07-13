@@ -1,7 +1,3 @@
-Claro! Aqui está um modelo de README.md para o seu repositório ricardodsr/Public_Python, seguindo sua descrição e os padrões recomendados:
-
----
-
 # Public_Python
 
 A linguagem foi projetada com a filosofia de enfatizar a importância do esforço do programador sobre o esforço computacional. Prioriza a legibilidade do código sobre a velocidade ou expressividade.
