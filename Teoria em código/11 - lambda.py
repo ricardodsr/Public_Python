@@ -36,8 +36,8 @@ def myfunc1(n):
   """
   return lambda a : a * n
 
-mydoubler = myfunc(2)
-mytripler = myfunc(3)
+mydoubler = myfunc1(2)
+mytripler = myfunc1(3)
 
 print(mydoubler(11))
 print(mytripler(11))

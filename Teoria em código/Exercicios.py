@@ -1,4 +1,6 @@
-# Crie um script Python que leia o nome de uma pessoa e mostre uma 
+from datetime import date
+
+# Crie um script Python que leia o nome de uma pessoa e mostre uma
 #mensagem de boas-vindas de acordo com o valor digitado
 
 entrada = input("Digite seu nome: \n")
@@ -15,7 +17,10 @@ dia = int(input("Dia de nascimento: \n"))
 
 print("A pessoa nasceu em: {}/{}/{}".format(dia, mes, ano))
 print("A pessoa nasceu no dia {} do mês {} do ano de {}.".format(dia, mes, ano))
-print("Esta pessoa tem: {}".format(2021-ano))
+hoje = date.today()
+# subtrai 1 se ainda nao fez anos este ano
+idade = hoje.year - ano - ((hoje.month, hoje.day) < (mes, dia))
+print("Esta pessoa tem: {} anos".format(idade))
 wait = input("Digitar ENTER para continuar.")
 
 # Crie um script Python que leia dois números e tente mostrar a soma entre eles
@@ -38,7 +43,8 @@ entrada = input("Digite algo: \n")
 print("Tipo primitivo: {}.".format(type(entrada)))
 
 print("É numérico? {}".format(entrada.isnumeric()))
-print("É alfanumérico? {}.".format(entrada.isalpha()))
+print("É alfabético (só letras)? {}.".format(entrada.isalpha()))
+print("É alfanumérico (letras e/ou números)? {}.".format(entrada.isalnum()))
 print("É um decimal? {}.".format(entrada.isdecimal()))
 print("Está em caixa baixa? {}.".format(entrada.islower()))
 print("É apenas espaço em branco? {}.".format(entrada.isspace()))

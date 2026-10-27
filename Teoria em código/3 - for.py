@@ -3,7 +3,7 @@ fruits = ["apple", "banana", "cherry"]
 for x in fruits:
     print(x)
 
-#Procura banana na lista e imprime:
+#Uma string tambem e uma sequencia: imprime cada letra de "banana":
 for x in "banana":
     print(x)
 
@@ -23,12 +23,14 @@ for x in fruits:
     print(x)
 
 
-    fruits = [1,2,3,4,5,6,7,8,9]
-for x in fruits:
-    if x >3  & x< 7:
+# continue salta para a proxima iteracao: imprime apenas os numeros fora de 4..6
+# Atencao: usar "and" e nao "&" - o "&" e um operador de bits e e avaliado
+# antes das comparacoes, o que muda completamente o resultado.
+numeros = [1,2,3,4,5,6,7,8,9]
+for x in numeros:
+    if x > 3 and x < 7:
         continue
-    else:
-        print("SL")
+    print(x)
 
 
 
@@ -74,7 +76,7 @@ my_function("Emil", "Tobias", "Linus")
 
 # more arguments and stuff
 def my_function(child3, child2, child1):
-    print("The youngest child is " + child2)
+    print("The youngest child is " + child3)
 
 
 my_function(child1="Emil", child2="Tobias", child3="Linus")

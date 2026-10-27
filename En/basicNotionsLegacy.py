@@ -1,3 +1,6 @@
+# LEGACY - Python 2 syntax. This file does NOT run on Python 3.
+# Kept for reference only; see basicNotions.py for the Python 3 version.
+
 # Single line comments start with a number symbol.
 
 """ Multiline strings can be written

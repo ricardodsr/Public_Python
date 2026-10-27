@@ -44,9 +44,10 @@ wait = input("Apertar para continuar.")
 def maior():
     lista = [5,2,3]
     a,b,c = lista
-    if a > b and a > c :
+    # usar >= para que os empates (ex: [5,5,3]) tambem funcionem
+    if a >= b and a >= c :
         print (a)
-    elif b > a and b > c :
+    elif b >= a and b >= c :
         print (b)
     else:
         print (c)

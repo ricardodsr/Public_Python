@@ -140,7 +140,8 @@ None  # => None
 
 # Don't use the equality "==" symbol to compare objects to None
 # Use "is" instead. This checks for equality of object identity.
-"etc" is None  # => False
+word = "etc"
+word is None   # => False  (comparing a literal directly with "is" raises a SyntaxWarning)
 None is None   # => True
 
 # None, 0, and empty strings/lists/dicts/tuples/sets all evaluate to False.

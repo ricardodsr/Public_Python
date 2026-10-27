@@ -15,16 +15,17 @@ print("str -> String -> Texto")
 print("int -> inteiros -> Numeros inteiros")
 print("Float -> numeros com virgulas")
 
-""""
-Em Python, existem 8 tipos de variáveis diferentes - cadenas, números inteiros, números de ponto flutuante, listas, tuplas, conjuntos, dicionários e booleanos.
-Cadenas são usadas para armazenar caracteres e símbolos numa sequência. Eles são usados ​​para armazenar informações como nomes, endereços, telefones, etc.
-Números inteiros são usados ​​para armazenar valores inteiros, como 0, 1, -1, etc.
-Números de ponto flutuante são usados ​​para armazenar valores decimais, como 0.5, 3.14, etc.
+"""
+Em Python, os tipos de dados mais usados são: strings (cadeias de caracteres), números inteiros, números de ponto flutuante, listas, tuplos, conjuntos, dicionários e booleanos.
+(Existem outros - complex, range, frozenset, bytes... - ver o ficheiro "1.1 - tiposdevariaveis.py".)
+Strings são usadas para armazenar caracteres e símbolos numa sequência. São usadas para armazenar informações como nomes, endereços, telefones, etc.
+Números inteiros são usados para armazenar valores inteiros, como 0, 1, -1, etc.
+Números de ponto flutuante são usados para armazenar valores decimais, como 0.5, 3.14, etc.
 Listas são usadas para armazenar informações em uma sequência. Por exemplo, uma lista de produtos, uma lista de nomes, etc.
 Tuplas são como listas, ou seja, armazenam vários valores em uma sequência. No entanto, os valores de uma tupla são imutáveis, ou seja, não podem ser alterados.
-Conjuntos são usados ​​para armazenar vários valores, mas sem nenhuma ordem específica.
-Dicionários são usados ​​para armazenar vários valores associados a chaves de dados.
-Booleanos são usados ​​para armazenar valores verdadeiro ou falso
+Conjuntos são usados para armazenar vários valores, mas sem nenhuma ordem específica.
+Dicionários são usados para armazenar vários valores associados a chaves de dados.
+Booleanos são usados para armazenar valores verdadeiro ou falso
 """
 
 x = str(3)    # x retrona '3'
@@ -101,9 +102,11 @@ wait = input("Ler os comentarios no codigo !!! \n Apertar para continuar.")
 
 
 """
-Podemos Utilizar colecçoes e descompactalas, para trabalhar com elas em 
+Podemos Utilizar colecçoes e descompactalas, para trabalhar com elas em
 separado
-Isto e denominado Array em C (linguagem imperativa)
+Isto e denominado "unpacking" (desempacotamento): cada elemento da lista
+fica numa variavel diferente. O numero de variaveis tem de ser igual ao
+numero de elementos.
 
 """
 

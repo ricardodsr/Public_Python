@@ -15,7 +15,7 @@ def thislista():
     thislist = ["apple", "banana", "cherry", "apple", "cherry"]
     print(thislist)
     print(len(thislist))  # length da lista, ou seja o tamanho da lista
-    print(thislist[2:4])  # imprive os elementos da lista 2 a 4
+    print(thislist[2:4])  # imprime os elementos dos indices 2 e 3 (o 4 nao e incluido)
     print(thislist[:4])  # imprime do inicio ate o 4 elemento (nao incluido)
     print(thislist[2:])  # imprime do 2 indexador ate o final da lista
 
@@ -40,7 +40,7 @@ def modificandoListas():
     print(mainlist)  # modifica os valores
 
     mainlist.insert(2, "watermelon")
-    print(mainlist)  # insere na segunda posicao
+    print(mainlist)  # insere no indice 2 (terceira posicao, os indices comecam em 0)
 
     mainlist.append("orange")
     print(mainlist)  # adiciona no final da lista
@@ -90,9 +90,13 @@ usandoWhile()
 wait = input("Apertar para continuar.")
 
 
-#Ver com muita calma (isto e mesmo foda)
+#Ver com muita calma: compreensao de listas (list comprehension)
+#Cria uma lista nova a partir de outra, numa so linha.
 def compreensao():
     lista = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
-    [print(x) for x in lista]
+    maiusculas = [x.upper() for x in lista]
+    print(maiusculas)
+    com_a = [x for x in lista if "a" in x]  # tambem permite filtrar
+    print(com_a)
 compreensao() 
 wait = input("Apertar para continuar.")
